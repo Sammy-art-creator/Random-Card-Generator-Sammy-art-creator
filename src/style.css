@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+}
+.card {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.symbol-top {
+  text-align: start;
+  font-size: 50px;
+  padding-left: 10px;
+}
+.value {
+  text-align: center;
+  font-size: 100px;
+}
+#symbol-bottom {
+  align-items: end;
+  font-size: 50px;
+  text-align: end;
+  padding-right: 10px;
+}
